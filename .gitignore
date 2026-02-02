@@ -30,3 +30,22 @@ _ReSharper*/
 .vs/
 #Nuget packages folder
 packages/
+
+# Local editor, OS, and environment files (not relevant to project commits)
+.vscode/
+.idea/
+.DS_Store
+desktop.ini
+Thumbs.db
+*.env
+*.env.*
+local.settings.json
+# keep local logs out
+*.log
+# temporary and backup files
+*.bak
+~*
+
+# Optional: ignore user-specific VS/IDE files
+*.suo
+*.user
